@@ -28,7 +28,3 @@ function findFloorConstraint(arr, val, low = 0, high = arr.length - 1) {
 }
 
 module.exports = { findFloor, findFloorConstraint };
-
-// findFloor([1, 2, 8, 10, 10, 12, 19], 9); // 8
-// findFloor([1, 2, 8, 10, 10, 12, 19], 20); // 19
-// findFloor([1, 2, 8, 10, 10, 12, 19], 0); // -1
